@@ -2,16 +2,16 @@ const places = {
   drury: {
     title: "Drury",
     copy:
-      "A major future urban growth area where planning decisions will shape how streams, wetlands, tree corridors, and new neighbourhoods fit together.",
-    pressure: "Housing growth and transport infrastructure",
-    risk: "Habitat fragmentation and sediment entering waterways",
+      "A major future growth area that could eventually house around 60,000 new residents, increasing pressure on nearby streams, wetlands, and habitat corridors.",
+    pressure: "Future housing growth and transport infrastructure",
+    risk: "Habitat fragmentation, sediment runoff, and wetland pressure",
   },
   papakura: {
     title: "Papakura",
     copy:
-      "A fast-changing community where restoration groups are working to strengthen parks, stream edges, and everyday neighbourhood green spaces.",
-    pressure: "Intensification, roads, and reduced backyard canopy",
-    risk: "Urban heat, lower canopy cover, and pressure on local streams",
+      "A fast-changing community where local restoration groups are working to strengthen parks, stream edges, and everyday neighbourhood green spaces.",
+    pressure: "Intensification, roads, and reduced tree cover",
+    risk: "Urban heat, lower canopy, and pressure on waterways",
   },
   takanini: {
     title: "Takanini",
@@ -23,9 +23,9 @@ const places = {
   manukau: {
     title: "Manukau",
     copy:
-      "A major urban centre where transport corridors, commercial land, and dense development make shade, tree cover, and green corridors especially important.",
+      "A major urban centre connected to the Manukau Harbour catchment, where dense development makes shade, tree cover, and green corridors especially important.",
     pressure: "Commercial growth, roads, and limited urban canopy",
-    risk: "Heat, stormwater pressure, and reduced ecological connectivity",
+    risk: "Heat, stormwater pressure, and reduced native vegetation connectivity",
   },
 };
 
@@ -61,7 +61,7 @@ const countObserver = new IntersectionObserver(
         const current = Math.round(target * eased);
 
         number.textContent =
-          target >= 100000 ? current.toLocaleString("en-NZ") : current;
+          target >= 1000 ? current.toLocaleString("en-NZ") : current;
 
         if (progress < 1) {
           requestAnimationFrame(tick);

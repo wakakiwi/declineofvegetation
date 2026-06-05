@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where It Is Happening | Protecting South Auckland's Vegetation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Protecting South Auckland's Vegetation</span>
+      </a>
+      <nav>
+        <a href="issue.html">Issue</a>
+        <a href="why-it-matters.html">Why</a>
+        <a href="where.html">Where</a>
+        <a href="taking-action.html">Action</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero where-hero">
+        <div class="page-hero-media"></div>
+        <div class="page-hero-content reveal">
+          <p class="kicker">Where it is happening</p>
+          <h1>Fast-growing areas are under pressure</h1>
+          <p>
+            Drury, Takanini, Papakura, and Manukau sit between Auckland's urban
+            centre and the rural Franklin district, making them key locations for
+            future development.
+          </p>
+        </div>
+      </section>
+
+      <section class="section map-section">
+        <div class="section-heading reveal">
+          <h2>Interactive South Auckland map</h2>
+          <p>
+            Select each location to see the development pressure and environmental
+            risk connected to vegetation decline.
+          </p>
+        </div>
+        <div class="map-layout">
+          <div class="map-card reveal" aria-label="Interactive South Auckland map">
+            <div class="map-surface">
+              <button class="map-pin active" style="--x: 42%; --y: 74%" data-place="drury" aria-label="Drury"></button>
+              <button class="map-pin" style="--x: 45%; --y: 58%" data-place="papakura" aria-label="Papakura"></button>
+              <button class="map-pin" style="--x: 48%; --y: 43%" data-place="takanini" aria-label="Takanini"></button>
+              <button class="map-pin" style="--x: 54%; --y: 24%" data-place="manukau" aria-label="Manukau"></button>
+              <div class="waterway waterway-one"></div>
+              <div class="waterway waterway-two"></div>
+              <div class="road road-one"></div>
+              <div class="road road-two"></div>
+            </div>
+          </div>
+          <article class="place-panel reveal" id="place-panel" aria-live="polite">
+            <p class="kicker">Selected area</p>
+            <h3>Drury</h3>
+            <p>
+              A major future urban growth area where planning decisions will shape
+              how streams, wetlands, tree corridors, and new neighbourhoods fit
+              together.
+            </p>
+            <dl>
+              <div>
+                <dt>Pressure</dt>
+                <dd>Housing growth and transport infrastructure</dd>
+              </div>
+              <div>
+                <dt>Risk</dt>
+                <dd>Habitat fragmentation and sediment entering waterways</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div class="section-copy reveal">
+          <h2>Important affected ecosystems</h2>
+          <p>
+            Environmental impacts can already be seen around important natural
+            areas such as Ōtara Creek, Puhinui Reserve, and the Manukau Harbour
+            catchment. These areas connect land, water, and habitat across South
+            Auckland.
+          </p>
+          <p>
+            Drury has been identified as a major future growth area and could
+            eventually house around 60,000 new residents. This growth supports
+            housing needs, but it also increases pressure on nearby ecosystems.
+          </p>
+        </div>
+        <div class="evidence-panel reveal">
+          <article>
+            <span class="fact-number">60,000</span>
+            <p>Possible future residents in the Drury growth area.</p>
+          </article>
+          <article>
+            <span class="fact-number">1.6%</span>
+            <p>Native vegetation cover remaining in the Manukau Ecological District.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
