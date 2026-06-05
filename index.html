@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>South Auckland's Vanishing Green Spaces</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Vanishing Green Spaces</span>
+      </a>
+      <nav>
+        <a href="#issue">Issue</a>
+        <a href="#map">Places</a>
+        <a href="#action">Action</a>
+        <a href="#help">Help</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" role="img" aria-label="Aerial-style view of green land meeting urban development"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+          <p class="kicker">South Auckland environmental campaign</p>
+          <h1>South Auckland's Vanishing Green Spaces</h1>
+          <p class="subtitle">
+            As South Auckland grows, native ecosystems are being squeezed by housing,
+            roads, and infrastructure. This site explores the causes, consequences,
+            and community restoration work protecting what remains.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#issue">Explore the Issue</a>
+            <a class="button secondary" href="#action">See Community Action</a>
+          </div>
+        </div>
+        <div class="hero-stats" aria-label="Key statistics">
+          <article>
+            <strong data-count="30">0</strong>
+            <span>% canopy target for urban Auckland</span>
+          </article>
+          <article>
+            <strong data-count="15">0</strong>
+            <span>% minimum target for every local board area</span>
+          </article>
+          <article>
+            <strong data-count="750000">0</strong>
+            <span>trees and plants Auckland Council reported planting in 2023</span>
+          </article>
+        </div>
+        <a class="scroll-cue" href="#issue" aria-label="Scroll to the issue section"></a>
+      </section>
+
+      <section id="issue" class="section split">
+        <div class="section-copy reveal">
+          <p class="kicker">The issue</p>
+          <h2>The hidden cost of urban growth</h2>
+          <p>
+            Vegetation decline happens when native trees, wetlands, shrubs, and
+            connected green corridors are removed, reduced, or broken into smaller
+            fragments. In South Auckland, pressure comes from rapid development,
+            land clearance, transport upgrades, and new infrastructure built across
+            places that were once more open and vegetated.
+          </p>
+          <p>
+            The problem is not only losing individual trees. It is losing the living
+            network that filters water, shelters birds and insects, stores carbon,
+            stabilises soil, cools streets, and gives communities access to healthy
+            green spaces.
+          </p>
+        </div>
+        <div class="pressure-panel reveal">
+          <div class="comparison" aria-label="Before and after vegetation comparison">
+            <div class="before">
+              <span>Connected habitat</span>
+            </div>
+            <div class="after">
+              <span>Fragmented growth</span>
+            </div>
+          </div>
+          <div class="fact-grid">
+            <article>
+              <span class="fact-number">8-13%</span>
+              <p>Several South Auckland areas have historically sat well below Auckland's canopy goals.</p>
+            </article>
+            <article>
+              <span class="fact-number">2050</span>
+              <p>Auckland's Urban Ngahere Strategy sets long-term canopy goals for a greener city.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="map" class="section map-section">
+        <div class="section-heading reveal">
+          <p class="kicker">South Auckland under pressure</p>
+          <h2>Where vegetation loss is being felt</h2>
+          <p>
+            These locations are connected by growth, transport corridors, housing
+            demand, and waterways that need stronger ecological protection.
+          </p>
+        </div>
+        <div class="map-layout">
+          <div class="map-card reveal" aria-label="Interactive South Auckland map">
+            <div class="map-surface">
+              <button class="map-pin active" style="--x: 42%; --y: 74%" data-place="drury" aria-label="Drury"></button>
+              <button class="map-pin" style="--x: 45%; --y: 58%" data-place="papakura" aria-label="Papakura"></button>
+              <button class="map-pin" style="--x: 48%; --y: 43%" data-place="takanini" aria-label="Takanini"></button>
+              <button class="map-pin" style="--x: 54%; --y: 24%" data-place="manukau" aria-label="Manukau"></button>
+              <div class="waterway waterway-one"></div>
+              <div class="waterway waterway-two"></div>
+              <div class="road road-one"></div>
+              <div class="road road-two"></div>
+            </div>
+          </div>
+          <article class="place-panel reveal" id="place-panel" aria-live="polite">
+            <p class="kicker">Selected area</p>
+            <h3>Drury</h3>
+            <p>
+              A major future urban growth area where planning decisions will shape
+              how streams, wetlands, tree corridors, and new neighbourhoods fit
+              together.
+            </p>
+            <dl>
+              <div>
+                <dt>Pressure</dt>
+                <dd>Housing growth and transport infrastructure</dd>
+              </div>
+              <div>
+                <dt>Risk</dt>
+                <dd>Habitat fragmentation and sediment entering waterways</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="kicker">Why vegetation matters</p>
+          <h2>Green spaces are working ecosystems</h2>
+        </div>
+        <div class="impact-grid">
+          <button class="impact-card reveal" aria-expanded="false">
+            <span class="impact-icon leaf"></span>
+            <strong>Supports biodiversity</strong>
+            <p>Native vegetation creates food, shelter, and movement corridors for birds, insects, lizards, and plant life.</p>
+          </button>
+          <button class="impact-card reveal" aria-expanded="false">
+            <span class="impact-icon water"></span>
+            <strong>Protects waterways</strong>
+            <p>Roots and riparian planting filter runoff, slow stormwater, and reduce sediment entering streams and harbours.</p>
+          </button>
+          <button class="impact-card reveal" aria-expanded="false">
+            <span class="impact-icon carbon"></span>
+            <strong>Stores carbon</strong>
+            <p>Trees and healthy soils absorb carbon while helping communities adapt to a warmer, more unstable climate.</p>
+          </button>
+          <button class="impact-card reveal" aria-expanded="false">
+            <span class="impact-icon habitat"></span>
+            <strong>Provides habitat</strong>
+            <p>Connected patches of native planting give species safer places to nest, feed, and move across urban landscapes.</p>
+          </button>
+          <button class="impact-card reveal" aria-expanded="false">
+            <span class="impact-icon erosion"></span>
+            <strong>Prevents erosion</strong>
+            <p>Vegetation anchors banks and slopes, reducing soil loss during heavy rain and protecting nearby homes and paths.</p>
+          </button>
+        </div>
+      </section>
+
+      <section class="story-band">
+        <div class="story-step reveal">
+          <span>01</span>
+          <h2>Habitat is cleared</h2>
+          <p>Land clearance removes trees, wetlands, and shelter needed by native species.</p>
+        </div>
+        <div class="story-step reveal">
+          <span>02</span>
+          <h2>Fragments are isolated</h2>
+          <p>Small disconnected patches make it harder for ecosystems to recover.</p>
+        </div>
+        <div class="story-step reveal">
+          <span>03</span>
+          <h2>Waterways suffer</h2>
+          <p>More hard surfaces increase runoff, sediment, and pressure on streams.</p>
+        </div>
+        <div class="story-step reveal">
+          <span>04</span>
+          <h2>Communities lose resilience</h2>
+          <p>Less shade, less carbon storage, and more erosion make urban areas more vulnerable.</p>
+        </div>
+      </section>
+
+      <section class="section split personal">
+        <div class="section-copy reveal">
+          <p class="kicker">Why we chose this issue</p>
+          <h2>Local action matters because this is our place</h2>
+          <p>
+            South Auckland is not an abstract case study. It is where people live,
+            study, travel, and build futures. When green spaces disappear, future
+            generations inherit hotter streets, weaker ecosystems, and fewer places
+            to connect with nature.
+          </p>
+          <p>
+            Choosing this issue means looking closely at our own region and asking
+            how growth can happen without sacrificing the native environments that
+            make Tāmaki Makaurau healthier and more resilient.
+          </p>
+        </div>
+        <div class="quote-card reveal">
+          <p>
+            "Restoration begins when a community decides that streams, trees, and
+            native species are not leftovers. They are part of the future."
+          </p>
+          <span>Community restoration perspective</span>
+        </div>
+      </section>
+
+      <section id="action" class="section action-section">
+        <div class="section-heading reveal">
+          <p class="kicker">Taking action</p>
+          <h2>Restoring what we can</h2>
+          <p>
+            The strongest response combines research, expert advice, community
+            participation, and practical restoration work.
+          </p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span>Research</span>
+            <h3>Investigated local vegetation decline</h3>
+            <p>Reviewed council strategies, local growth plans, and restoration examples across South Auckland.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>Connect</span>
+            <h3>Contacted environmental organisations</h3>
+            <p>Reached out to conservation groups and practitioners to understand what restoration looks like on the ground.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>Listen</span>
+            <h3>Learned from experts</h3>
+            <p>Gathered insights from people such as Shane McNeil and local restoration workers with practical field experience.</p>
+          </article>
+          <article class="timeline-item reveal">
+            <span>Restore</span>
+            <h3>Joined planting activities</h3>
+            <p>Participated in community planting and observed how native species are selected, planted, protected, and maintained.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section restoration">
+        <div class="section-heading reveal">
+          <p class="kicker">Community restoration</p>
+          <h2>Sustainable Papakura planting day</h2>
+          <p>
+            Planting days turn environmental concern into visible change: people
+            meet, learn, plant, mulch, protect seedlings, and build pride in local
+            places.
+          </p>
+        </div>
+        <div class="gallery">
+          <figure class="gallery-large reveal">
+            <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1300&q=80" alt="Hands planting a young seedling in soil" />
+            <figcaption>Hands-on restoration: planting, mulching, and protecting young native plants.</figcaption>
+          </figure>
+          <div class="species-list reveal">
+            <h3>Native species often used in restoration</h3>
+            <ul>
+              <li>Mānuka and kānuka for hardy early shelter</li>
+              <li>Harakeke near wetlands and stream edges</li>
+              <li>Tī kōuka for wet ground and bird habitat</li>
+              <li>Karamū and māhoe for native revegetation</li>
+              <li>Carex and toetoe for riparian planting</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section voices">
+        <div class="section-heading reveal">
+          <p class="kicker">Voices from conservation</p>
+          <h2>What restoration practitioners help us understand</h2>
+        </div>
+        <div class="voice-grid">
+          <article class="voice-card reveal">
+            <p>"The first planting day is only the start. The real success comes from follow-up care, weed control, and community ownership."</p>
+            <span>Insight from Shane McNeil interview notes</span>
+          </article>
+          <article class="voice-card reveal">
+            <p>"Green corridors matter because wildlife needs connected habitat, not isolated pockets surrounded by roads and roofs."</p>
+            <span>Environmental organisation theme</span>
+          </article>
+          <article class="voice-card reveal">
+            <p>"Local restoration works best when schools, families, mana whenua, councils, and volunteers all understand the purpose."</p>
+            <span>Community restoration perspective</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section solutions">
+        <div class="section-heading reveal">
+          <p class="kicker">Hope for the future</p>
+          <h2>Solutions that protect growth and nature</h2>
+        </div>
+        <div class="solution-grid">
+          <article class="solution-card reveal">
+            <h3>Native planting programmes</h3>
+            <p>Increase native canopy and restore stream edges with species suited to each site.</p>
+          </article>
+          <article class="solution-card reveal">
+            <h3>Protected green spaces</h3>
+            <p>Safeguard mature trees, wetlands, parks, and ecological corridors before development begins.</p>
+          </article>
+          <article class="solution-card reveal">
+            <h3>Sustainable urban planning</h3>
+            <p>Design housing, roads, and infrastructure around waterways, shade, and biodiversity.</p>
+          </article>
+          <article class="solution-card reveal">
+            <h3>Environmental education</h3>
+            <p>Help students and communities identify native species, pest plants, and local restoration opportunities.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="help" class="section help-section">
+        <div class="section-heading reveal">
+          <p class="kicker">Get involved</p>
+          <h2>Become part of the solution</h2>
+        </div>
+        <div class="help-grid">
+          <a class="help-card reveal" href="https://www.aucklandcouncil.govt.nz/parks-recreation/volunteering/Pages/default.aspx" target="_blank" rel="noreferrer">
+            <span>Volunteer</span>
+            <h3>Join planting days</h3>
+            <p>Look for Auckland Council and community volunteer events in parks, reserves, and stream projects.</p>
+          </a>
+          <a class="help-card reveal" href="https://sustainablepapakura.org/" target="_blank" rel="noreferrer">
+            <span>Connect</span>
+            <h3>Support local groups</h3>
+            <p>Follow groups such as Sustainable Papakura and local restoration networks.</p>
+          </a>
+          <a class="help-card reveal" href="https://www.tiakitamakimakaurau.nz/" target="_blank" rel="noreferrer">
+            <span>Learn</span>
+            <h3>Protect native species</h3>
+            <p>Learn about pest plants, native ecosystems, and practical actions for Tāmaki Makaurau.</p>
+          </a>
+          <a class="help-card reveal" href="https://new.aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/our-plans-strategies/topic-based-plans-strategies/environmental-plans-strategies/urban-ngahere-forest-strategy.html" target="_blank" rel="noreferrer">
+            <span>Advocate</span>
+            <h3>Defend green spaces</h3>
+            <p>Use council strategies and local board plans to support stronger urban ngahere protection.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="final-content reveal">
+          <p class="kicker">The future is still being decided</p>
+          <h2>The future of South Auckland's environment depends on the choices we make today.</h2>
+          <a class="button primary" href="#help">Become Part of the Solution</a>
+        </div>
+      </section>
+
+      <section class="section references">
+        <div class="section-heading reveal">
+          <p class="kicker">References and acknowledgements</p>
+          <h2>Sources used</h2>
+        </div>
+        <div class="reference-list reveal">
+          <a href="https://new.aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/our-plans-strategies/topic-based-plans-strategies/environmental-plans-strategies/urban-ngahere-forest-strategy.html" target="_blank" rel="noreferrer">Auckland Council: Urban Ngahere (Forest) Strategy</a>
+          <a href="https://ourauckland.aucklandcouncil.govt.nz/news/2018/4/don-t-let-south-auckland-be-leaf-t-behind/" target="_blank" rel="noreferrer">OurAuckland: South Auckland tree canopy coverage</a>
+          <a href="https://ourauckland.aucklandcouncil.govt.nz/news/2023/09/protecting-our-trees/" target="_blank" rel="noreferrer">OurAuckland: Protecting our trees</a>
+          <a href="https://knowledgeauckland.org.nz/publications/indigenous-terrestrial-and-wetland-ecosystems-of-auckland/" target="_blank" rel="noreferrer">Knowledge Auckland: Indigenous terrestrial and wetland ecosystems</a>
+          <a href="https://new.aucklandcouncil.govt.nz/en/plans-policies-bylaws-reports-projects/our-plans-strategies/place-based-plans/structure-plans/drury-opaheke-structure-plan.html" target="_blank" rel="noreferrer">Auckland Council: Drury-Opāheke Structure Plan</a>
+        </div>
+        <p class="acknowledgement reveal">
+          Acknowledgements: Sustainable Papakura, local conservation volunteers,
+          environmental organisations, and restoration practitioners who support
+          healthier native ecosystems in South Auckland.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
